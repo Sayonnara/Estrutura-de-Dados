@@ -158,7 +158,7 @@ print(pilha.pop())  # Saída: "c"
 ### Visualizando a pilha
 print(pilha)  # Saída: ["a", "b"]
 
-#Fila (Queue)
+# Fila (Queue)
 
 Uma fila segue a ordem FIFO (First In, First Out), onde o primeiro elemento inserido é o primeiro a sair.
 --------------------------------------------------------------------------------------------------------
