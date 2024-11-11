@@ -52,7 +52,8 @@ pilha.pop()      # Remove o último elemento inserido
 
 - Aplicação: Utilizada em algoritmos de navegação, como o "desfazer" em editores de texto.
 
-Fila (Queue)
+# Fila (Queue)
+
 Definição: Estrutura FIFO (First In, First Out), onde o primeiro elemento inserido é o primeiro a sair.
 
 Uso no Código:
@@ -89,4 +90,32 @@ class No:
     def __init__(self, valor):
         self.valor = valor
         self.filhos = []
+        
+- Aplicação: Útil em bancos de dados, sistemas de arquivos e algoritmos de busca.
 
+# Grafos
+
+Definição: Conjunto de nós conectados por arestas, representando redes ou conexões.
+
+Uso no Código: Representado por listas de adjacência ou matrizes
+
+grafo = { "A": ["B", "C"], "B": ["A", "D"], "C": ["A", "D"], "D": ["B", "C"] }
+
+ #DICA
+
+>> Como Usar Estruturas no Código e Entender a Escolha
+- Ao escolher uma estrutura de dados, pergunte-se:
+
+1- Qual é o volume de dados?
+
+Para grandes volumes, prefira estruturas eficientes em espaço e tempo.
+
+2 -Qual a frequência das operações?
+
+Se você precisa inserir ou deletar constantemente, pilhas e filas são ótimas opções.
+
+3 -Quais operações são mais usadas?
+
+Se buscas rápidas são essenciais, os dicionários podem ser uma boa escolha.
+
+Cada estrutura vem com suas vantagens, e o uso eficiente delas otimiza a solução e contribui para um código de qualidade.
