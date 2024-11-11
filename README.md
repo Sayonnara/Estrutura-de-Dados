@@ -119,3 +119,22 @@ Se você precisa inserir ou deletar constantemente, pilhas e filas são ótimas 
 Se buscas rápidas são essenciais, os dicionários podem ser uma boa escolha.
 
 Cada estrutura vem com suas vantagens, e o uso eficiente delas otimiza a solução e contribui para um código de qualidade.
+
+ # 1. Lista
+Uma lista em Python pode armazenar elementos em sequência e é ideal para acessar dados por índice.
+
+python
+Copiar código
+# Criando uma lista de números
+lista = [10, 20, 30, 40]
+
+# Adicionando um elemento
+lista.append(50)
+
+# Acessando elementos
+print(lista[0])  # Saída: 10
+
+# Removendo o último elemento
+lista.pop()
+
+print(lista)  # Saída: [10, 20, 30, 40]
