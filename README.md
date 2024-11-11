@@ -180,3 +180,50 @@ print(fila.popleft())  # Saída: "primeiro"
 ### Visualizando a fila
 print(fila)  # Saída: deque(['segundo', 'terceiro'])
 
+# Dicionário (Hash Map)
+
+Os dicionários armazenam pares de chave-valor, permitindo acessar valores rapidamente por sua chave.
+
+### Criando um dicionário
+dicionario = {"nome": "Alice", "idade": 25, "cidade": "São Paulo"}
+
+### Acessando um valor
+print(dicionario["nome"])  # Saída: "Alice"
+
+### Adicionando um novo par chave-valor
+dicionario["profissão"] = "Engenheira"
+
+### Removendo uma chave
+del dicionario["cidade"]
+
+print(dicionario)  # Saída: {'nome': 'Alice', 'idade': 25, 'profissão': 'Engenheira'}
+
+# Árvore
+Uma árvore pode ser representada por uma classe com um nó raiz que contém referências para seus filhos.
+
+class No:
+    def __init__(self, valor):
+        self.valor = valor
+        self.filhos = []
+
+### Criando nós
+raiz = No("raiz")
+
+filho1 = No("filho1")
+
+filho2 = No("filho2")
+
+### Adicionando filhos ao nó raiz
+
+raiz.filhos.append(filho1)
+
+raiz.filhos.append(filho2)
+
+### Visualizando a árvore
+
+print(raiz.valor)  # Saída: "raiz"
+
+for filho in raiz.filhos:
+
+    print(filho.valor)  # Saída: "filho1" e "filho2"
+
