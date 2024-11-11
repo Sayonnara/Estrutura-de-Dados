@@ -50,4 +50,19 @@ pilha.append(1)  # Insere na pilha
 
 pilha.pop()      # Remove o último elemento inserido
 
+- Aplicação: Utilizada em algoritmos de navegação, como o "desfazer" em editores de texto.
+
+Fila (Queue)
+Definição: Estrutura FIFO (First In, First Out), onde o primeiro elemento inserido é o primeiro a sair.
+
+Uso no Código:
+python
+
+from collections import deque
+
+fila = deque([1, 2, 3])
+fila.append(4)     # Insere no final
+
+fila.popleft()     # Remove o primeiro elemento
+
 
