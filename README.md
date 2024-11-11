@@ -27,6 +27,7 @@ Arrays ou Listas
 Definição: Conjuntos de elementos armazenados em posições contínuas de memória.
 
 Uso no Código: Em Python, uma lista pode ser criada assim:
+
 python
-Copiar código
-lista = [1, 2, 3, 4]
+
+Lista = [1, 2, 3, 4]
