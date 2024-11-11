@@ -251,3 +251,28 @@ print(grafo["A"])  # Saída: ['B', 'C']
 
 print(grafo["D"])  # Saída: ['B', 'C']
 
+# Nas estruturas de dados, "estático" e "dinâmico" se referem a como o armazenamento de dados é gerenciado:
+
+Estrutura Estática: O tamanho da estrutura é fixo e não pode ser alterado após sua criação.
+
+Estrutura Dinâmica: O tamanho pode mudar durante a execução do programa, com a capacidade de adicionar ou remover elementos conforme necessário.
+
+- Aqui estão exemplos de estruturas de dados, tanto estáticas quanto dinâmicas, onde aplicável.
+
+1. Lista Estática e Dinâmica
+2. 
+No Python, listas são naturalmente dinâmicas. Para simular uma lista estática, podemos limitar seu tamanho.
+
+## Lista Estática
+
+python
+
+# Lista com tamanho fixo
+lista_estatica = [0] * 5  # Lista com 5 elementos, todos iniciados com 0
+
+# Atribuindo valores
+lista_estatica[0] = 10
+lista_estatica[1] = 20
+
+print(lista_estatica)  # Saída: [10, 20, 0, 0, 0]
+
