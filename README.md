@@ -232,10 +232,15 @@ Um grafo pode ser representado como um dicionário, onde cada chave é um nó e 
 
 ### Criando um grafo com lista de adjacência
 grafo = {
+
     "A": ["B", "C"],
+    
     "B": ["A", "D"],
+    
     "C": ["A", "D"],
+    
     "D": ["B", "C"]
+    
 }
 
 ### Visualizando conexões do nó "A"
