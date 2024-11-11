@@ -227,3 +227,22 @@ for filho in raiz.filhos:
 
     print(filho.valor)  # Saída: "filho1" e "filho2"
 
+# Grafo
+Um grafo pode ser representado como um dicionário, onde cada chave é um nó e seu valor é uma lista dos nós conectados.
+
+### Criando um grafo com lista de adjacência
+grafo = {
+    "A": ["B", "C"],
+    "B": ["A", "D"],
+    "C": ["A", "D"],
+    "D": ["B", "C"]
+}
+
+### Visualizando conexões do nó "A"
+
+print(grafo["A"])  # Saída: ['B', 'C']
+
+### Conexões de "D"
+
+print(grafo["D"])  # Saída: ['B', 'C']
+
