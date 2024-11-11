@@ -15,5 +15,18 @@ Por exemplo:
 #  Benefícios das Estruturas de Dados
 
 Eficiência: Usar a estrutura certa economiza tempo e recursos.
+
 Organização: Estruturas bem escolhidas tornam o código mais legível e organizado.
+
 Escalabilidade: Algumas estruturas são melhores para grandes volumes de dados, ajudando o programa a lidar com crescimento sem perda de performance.
+
+# Principais Estruturas de Dados e Como Usá-las no Código
+
+Arrays ou Listas
+   
+Definição: Conjuntos de elementos armazenados em posições contínuas de memória.
+
+Uso no Código: Em Python, uma lista pode ser criada assim:
+python
+Copiar código
+lista = [1, 2, 3, 4]
