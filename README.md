@@ -285,14 +285,14 @@ print(lista_estatica)  # Saída: [10, 20, 0, 0, 0]
 
 lista_dinamica = []
 
-# Adicionando elementos
+### Adicionando elementos
 lista_dinamica.append(10)
 
 lista_dinamica.append(20)
 
 lista_dinamica.append(30)
 
-# Removendo elementos
+### Removendo elementos
 lista_dinamica.pop()
 
 print(lista_dinamica)  # Saída: [10, 20]
