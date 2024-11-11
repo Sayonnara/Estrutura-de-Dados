@@ -103,7 +103,7 @@ grafo = { "A": ["B", "C"], "B": ["A", "D"], "C": ["A", "D"], "D": ["B", "C"] }
 
  #DICA
 
->> Como Usar Estruturas no Código e Entender a Escolha
+## Como Usar Estruturas no Código e Entender a Escolha
 - Ao escolher uma estrutura de dados, pergunte-se:
 
 1- Qual é o volume de dados?
