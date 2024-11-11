@@ -138,3 +138,43 @@ print(lista[0])  # Saída: 10
 lista.pop()
 
 print(lista)  # Saída: [10, 20, 30, 40]
+
+# Pilha (Stack)
+Uma pilha usa a abordagem LIFO (Last In, First Out). O último elemento adicionado é o primeiro a ser removido.
+
+python
+
+### Criando uma pilha
+pilha = []
+
+### Adicionando elementos
+pilha.append("a")
+pilha.append("b")
+pilha.append("c")
+
+### Removendo o último elemento
+print(pilha.pop())  # Saída: "c"
+
+### Visualizando a pilha
+print(pilha)  # Saída: ["a", "b"]
+
+#Fila (Queue)
+
+Uma fila segue a ordem FIFO (First In, First Out), onde o primeiro elemento inserido é o primeiro a sair.
+--------------------------------------------------------------------------------------------------------
+from collections import deque
+
+### Criando uma fila
+fila = deque()
+
+### Adicionando elementos na fila
+fila.append("primeiro")
+fila.append("segundo")
+fila.append("terceiro")
+
+### Removendo o primeiro elemento
+print(fila.popleft())  # Saída: "primeiro"
+
+### Visualizando a fila
+print(fila)  # Saída: deque(['segundo', 'terceiro'])
+--------------------------------------------------------------------------------------------------------
