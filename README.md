@@ -61,8 +61,32 @@ python
 from collections import deque
 
 fila = deque([1, 2, 3])
+
 fila.append(4)     # Insere no final
 
 fila.popleft()     # Remove o primeiro elemento
 
+- Aplicação: Usada em processamento de tarefas, como sistemas de impressão.
+
+  # Dicionários (Hash Maps)
+  
+Definição: Estrutura que armazena pares de chave-valor, permitindo acesso rápido aos valores pela chave.
+
+dicionario = {"chave1": "valor1", "chave2": "valor2"}
+
+valor = dicionario["chave1"]
+
+- Aplicação: Ideal para buscas rápidas, como em sistemas de inventário.
+
+# Árvores
+
+Definição: Estrutura hierárquica com um nó raiz e subnós, representando relações de "pai e filho".
+
+Uso no Código: Representada como uma classe onde cada nó aponta para os nós filhos
+
+class No:
+
+    def __init__(self, valor):
+        self.valor = valor
+        self.filhos = []
 
