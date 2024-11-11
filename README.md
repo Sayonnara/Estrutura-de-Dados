@@ -260,19 +260,40 @@ Estrutura Dinâmica: O tamanho pode mudar durante a execução do programa, com 
 - Aqui estão exemplos de estruturas de dados, tanto estáticas quanto dinâmicas, onde aplicável.
 
 1. Lista Estática e Dinâmica
-2. 
+
 No Python, listas são naturalmente dinâmicas. Para simular uma lista estática, podemos limitar seu tamanho.
 
-## Lista Estática
+# Lista Estática
 
 python
 
-# Lista com tamanho fixo
+### Lista com tamanho fixo
+
 lista_estatica = [0] * 5  # Lista com 5 elementos, todos iniciados com 0
 
-# Atribuindo valores
+### Atribuindo valores
+
 lista_estatica[0] = 10
+
 lista_estatica[1] = 20
 
 print(lista_estatica)  # Saída: [10, 20, 0, 0, 0]
+
+# Lista Dinâmica
+
+### Lista dinâmica - pode crescer conforme necessário
+
+lista_dinamica = []
+
+# Adicionando elementos
+lista_dinamica.append(10)
+
+lista_dinamica.append(20)
+
+lista_dinamica.append(30)
+
+# Removendo elementos
+lista_dinamica.pop()
+
+print(lista_dinamica)  # Saída: [10, 20]
 
