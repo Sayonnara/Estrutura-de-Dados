@@ -169,7 +169,9 @@ fila = deque()
 
 ### Adicionando elementos na fila
 fila.append("primeiro")
+
 fila.append("segundo")
+
 fila.append("terceiro")
 
 ### Removendo o primeiro elemento
