@@ -161,7 +161,7 @@ print(pilha)  # Saída: ["a", "b"]
 # Fila (Queue)
 
 Uma fila segue a ordem FIFO (First In, First Out), onde o primeiro elemento inserido é o primeiro a sair.
---------------------------------------------------------------------------------------------------------
+
 from collections import deque
 
 ### Criando uma fila
@@ -177,4 +177,4 @@ print(fila.popleft())  # Saída: "primeiro"
 
 ### Visualizando a fila
 print(fila)  # Saída: deque(['segundo', 'terceiro'])
---------------------------------------------------------------------------------------------------------
+
