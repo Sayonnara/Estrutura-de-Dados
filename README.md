@@ -31,3 +31,23 @@ Uso no Código: Em Python, uma lista pode ser criada assim:
 python
 
 Lista = [1, 2, 3, 4]
+
+Aplicação: Para armazenar itens de forma sequencial.
+
+# Pilha (Stack)
+
+Definição: Estrutura LIFO (Last In, First Out), onde o último elemento inserido é o primeiro a ser removido.
+
+Uso no Código:
+
+python
+
+Copiar código
+
+pilha = []
+
+pilha.append(1)  # Insere na pilha
+
+pilha.pop()      # Remove o último elemento inserido
+
+
