@@ -125,16 +125,16 @@ Uma lista em Python pode armazenar elementos em sequência e é ideal para acess
 
 python
 Copiar código
-# Criando uma lista de números
+### Criando uma lista de números
 lista = [10, 20, 30, 40]
 
-# Adicionando um elemento
+### Adicionando um elemento
 lista.append(50)
 
-# Acessando elementos
+### Acessando elementos
 print(lista[0])  # Saída: 10
 
-# Removendo o último elemento
+### Removendo o último elemento
 lista.pop()
 
 print(lista)  # Saída: [10, 20, 30, 40]
