@@ -305,7 +305,7 @@ print(lista_dinamica)  # Saída: [10, 20]
 
 <span style="color: blue;">
 
-## Pilha com tamanho *Lixo*
+## Pilha com tamanho ```Fixo
 
 tamanho_maximo = 3
 pilha_estatica = []
