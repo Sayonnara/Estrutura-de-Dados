@@ -97,7 +97,9 @@ class No:
 
 Definição: Conjunto de nós conectados por arestas, representando redes ou conexões.
 
-Uso no Código: Representado por listas de adjacência ou matrizes
+Uso no Código:
+
+Representado por listas de adjacência ou matrizes:
 
 grafo = { "A": ["B", "C"], "B": ["A", "D"], "C": ["A", "D"], "D": ["B", "C"] }
 
@@ -299,11 +301,11 @@ print(lista_dinamica)  # Saída: [10, 20]
 
 
 # Pilha Estática e Dinâmica
-## As pilhas podem ser feitas com listas. Uma pilha estática terá um tamanho limitado, enquanto uma pilha dinâmica permite crescimento conforme necessário.
+## As pilhas podem ser feitas com listas. Uma pilha estática terá um tamanho *limitado*, enquanto uma pilha dinâmica permite crescimento conforme necessário.
 
 <span style="color: blue;">
 
-## Pilha com tamanho fixo
+## Pilha com tamanho *Lixo*
 
 tamanho_maximo = 3
 pilha_estatica = []
