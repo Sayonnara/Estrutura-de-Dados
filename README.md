@@ -297,3 +297,27 @@ lista_dinamica.pop()
 
 print(lista_dinamica)  # Saída: [10, 20]
 
+
+# Pilha Estática e Dinâmica
+## As pilhas podem ser feitas com listas. Uma pilha estática terá um tamanho limitado, enquanto uma pilha dinâmica permite crescimento conforme necessário.
+<div style="background-color: lightgray; padding: 10px;"> 
+
+## Pilha com tamanho fixo
+tamanho_maximo = 3
+pilha_estatica = []
+
+## Empilhando elementos até o limite
+if len(pilha_estatica) < tamanho_maximo:
+    pilha_estatica.append(1)
+if len(pilha_estatica) < tamanho_maximo:
+    pilha_estatica.append(2)
+if len(pilha_estatica) < tamanho_maximo:
+    pilha_estatica.append(3)
+
+## Tentativa de empilhar além do limite (ignorada)
+if len(pilha_estatica) < tamanho_maximo:
+    pilha_estatica.append(4)
+
+print(pilha_estatica)  # Saída: [1, 2, 3]
+
+</div>
