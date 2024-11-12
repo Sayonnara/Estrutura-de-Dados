@@ -300,6 +300,7 @@ print(lista_dinamica)  # Saída: [10, 20]
 
 # Pilha Estática e Dinâmica
 ## As pilhas podem ser feitas com listas. Uma pilha estática terá um tamanho limitado, enquanto uma pilha dinâmica permite crescimento conforme necessário.
+
 <div style="background-color: lightgray; padding: 10px;"> 
 
 ## Pilha com tamanho fixo
@@ -321,3 +322,8 @@ if len(pilha_estatica) < tamanho_maximo:
 print(pilha_estatica)  # Saída: [1, 2, 3]
 
 </div>
+
+<div style="background-color: lightgray; padding: 10px;">
+  Este é um bloco com fundo cinza.
+</div>
+
